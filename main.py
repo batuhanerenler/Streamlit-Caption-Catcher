@@ -1,6 +1,6 @@
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
-from streamlit_bootstrap_components import stb
+import streamlit_bootstrap_widgets as sbw
 
 # Define a function to download the captions
 def download_captions(video_url, language):
